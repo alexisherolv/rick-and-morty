@@ -3,23 +3,8 @@ import Skeleton from '@yisheng90/react-loading';
 
 //Reacstrap Components
 import {
-    Button,
-    Card,
-    CardHeader,
-    CardBody,
-    CardTitle,
-    CardGroup,
-    CardImg,
-    CardSubtitle,
-    CardText,
     Row,
     Col,
-    Modal, 
-    ModalBody, 
-    ModalFooter,
-    FormGroup,
-    Label,
-    Input,
 } from "reactstrap";
 
 import PaginationComponent from "../components/Pagination";
@@ -55,6 +40,7 @@ function Home() {
     const columnsPerRow = 2;
 
     useEffect(() => {
+        //Obtenemos la data de los personajes por primera vez.
         var url = new URL(`${process.env.REACT_APP_API_URI}/character/`);
 
         fetch(url, {
@@ -79,7 +65,7 @@ function Home() {
 
 
     useEffect(() => {
-
+        //Cada que cambiemos de página obtenemos la data de acuerdo a los parámetros establecidos.
         var params = {}
 
         params = {
@@ -183,7 +169,6 @@ function Home() {
 
     function filterClick() {
 
-       
         var params = {}
 
         params = {

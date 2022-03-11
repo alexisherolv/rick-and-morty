@@ -20,6 +20,7 @@ function CardComponent({index, item}){
     const history = useHistory();
 
     useEffect(() => {
+        //Obtenemos la información del primer episodio
         var url = new URL(item.episode[0]);
 
         fetch(url, {
@@ -42,7 +43,6 @@ function CardComponent({index, item}){
     function onClickCharacter() {
         history.push(`/character/${item.id}/`);
     }
-
 
     return(
         <Card key={index} className = "card-character" onClick={onClickCharacter}>

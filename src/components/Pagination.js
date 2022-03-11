@@ -12,10 +12,6 @@ import {
 
 function PaginationComponent({pages, goToPreviousPage, getPaginationGroup, changePage,  goToNextPage, currentPage, goToFirstPage, goToLastPage}) {
 
-    useEffect(() => {
-        console.log(pages)
-    }, [pages]);
-
     return  (
         <div className="pagination-component">
             <Row className="justify-content-md-center">

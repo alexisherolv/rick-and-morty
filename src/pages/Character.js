@@ -28,6 +28,7 @@ function Character(){
     const [dataFind, setDataFind] = useState(false);
 
     useEffect(() => {
+        //Obtenemos la información del personaje actual de acuerdo a su ID
         var url = new URL(`${process.env.REACT_APP_API_URI}/character/${id}`);
 
         fetch(url, {
@@ -50,7 +51,7 @@ function Character(){
     }, [id]);
 
     useEffect(() => {
-        console.log(character)
+        //Obtenemos algunos personajes relacionados de acuerdo al status
         if(character!== null)
         {
             var url = new URL(`${process.env.REACT_APP_API_URI}/character/?status=${character.status}`);
