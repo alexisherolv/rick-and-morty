@@ -108,12 +108,12 @@ function Filter({filterClick, deleteClick, name, setName, status, setStatus, spe
                                 </Col>
                                 <Col sm = "3">
                                     <Button className="button-delete" color="primary" onClick={deleteClick}>
-                                        Borrar Filtros
+                                        Delete Filters
                                     </Button>
                                 </Col>
                                 <Col sm = "3">
                                     <Button className="button-filter" color="primary" onClick={filterClick}>
-                                        Filtrar
+                                        Filter
                                     </Button>
                                 </Col>
                                 <Col sm = "3">
