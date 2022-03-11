@@ -1,0 +1,112 @@
+
+.card-character:hover{
+    transform: scale(1.0);
+    box-shadow: 0 0 0 1px #ffffff
+}
+
+.card-character{
+    margin-top: 15px !important;
+    border-radius: 8px !important;
+    background-color: #403c44;
+}
+
+.card-img{
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.card-title{
+    color: #e6e5e3;
+    font-family: 'Verdana',serif;
+    font-weight: bold !important;
+}
+
+.related-label{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #e6e5e3;
+    font-family: 'Verdana',serif;
+    font-weight: bold !important;
+}
+
+.card-subtitle{
+    color: #e6e5e3 !important;
+    font-family: 'Verdana',serif;
+    font-size: small;
+    font-weight: bold !important;
+}
+
+.card-location-title{
+    margin-top: 15px !important;
+    margin-bottom: 4px !important;
+    color: #7a7c7e !important;
+    font-family: 'Verdana',serif;
+    font-size: small;
+    font-weight: bold !important;
+}
+
+.card-location-desc{
+    color: #e6e5e3 !important;
+    font-family: 'Verdana',serif;
+}
+
+.dot-alive {
+    height: 10px;
+    width: 10px;
+    background-color: #00bb2b;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-dead {
+    height: 10px;
+    width: 10px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.related-character {
+    margin: 10px;
+}
+
+.related-image{
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+}
+
+.related-group{
+    margin-bottom: 40px;
+}
+
+.img-character {
+    margin: 20px !important;
+    display:flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.character-title{
+    font-family: 'Verdana',serif !important;
+    font-size: 30px !important;
+    margin-top: 30px !important;
+    margin-left: 10px !important;
+    margin-bottom: 20px !important;
+    font-weight: bold !important;
+}
+
+.character-items{
+    font-family: 'Verdana',serif !important;
+    font-size: 20px !important;
+    margin-left: 10px !important;
+    font-weight: bold !important;
+}
+
+@media (max-width: 575px) {
+    .img-character {
+        margin: 0px !important;
+    }
+}

@@ -1,0 +1,24 @@
+.page {
+  background-color: #070809 !important;
+}
+
+.abs-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.home {
+  width: 80% !important;
+  padding-top: 80px !important;
+}
+
+.no-data {
+  padding: 20px !important;
+  background-color: #606164;
+  color: #e6e5e3 !important;
+  font-family: 'Verdana',serif;
+  text-align: center;
+  font-weight: bold !important;;
+}

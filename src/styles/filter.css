@@ -1,0 +1,56 @@
+.filter{
+    border: 0;
+    margin-bottom: 50px;
+    font-family: 'Verdana',serif;
+}
+
+.btn-primary {
+    background-color: #606164 !important;
+    border: 2px solid #e6e5e3 !important;
+}
+
+
+.button-filter{
+    width: 100% !important;
+    margin-bottom: 10px;
+    background-color: #606164 !important;
+    border: 2px solid #e6e5e3 !important;
+    border-color:#e6e5e3 !important;
+}
+
+.button-filter:hover {
+    background-color: #070809; 
+    color: #e6e5e3;
+    border: 2px solid #e6e5e3;
+}
+
+.button-filter:active {
+    background-color: #070809 !important; 
+    color: #e6e5e3;
+    border: 2px solid #e6e5e3 !important;
+}
+
+.button-delete{
+    width: 100% !important;
+    margin-bottom: 10px;
+    background-color: #403c44 !important;
+    border: 2px solid #e6e5e3 !important;
+}
+
+.button-delete:hover {
+    background-color: #070809; /* Green */
+    color: #e6e5e3;
+    border: 2px solid #e6e5e3;
+}
+
+.filter-header{
+    background-color: #606164;
+}
+
+.filter-body{
+    background-color: #403c44;
+}
+
+.filter-labels{
+    color: #e6e5e3 !important;
+}
